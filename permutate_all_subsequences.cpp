@@ -3,7 +3,8 @@ using namespace std;
 
 void print(int x) {
   // prints all 1's of x 
-  // 7 => 0 1 2
+  // x = 7, sequence constructed from its binary representation
+  // x = {0, 1, 2}
   
   for(int i = 0; i < 32; i++) {
     if ((x & (1 << i)) > 0) 
